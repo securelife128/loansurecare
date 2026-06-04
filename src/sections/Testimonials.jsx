@@ -5,32 +5,32 @@ const Testimonials = () => {
   const reviews = [
     {
       name: 'Vijay Patel',
-      role: 'Business Owner, Mulund West',
-      text: 'Manish Panchal set up my business loans and comprehensive health coverages. When I had an emergency cashless admission last year, his claims assistance desk resolved hospital billing in under 2 hours! Absolute lifecycle partner.',
+      role: 'Conveyor Belt Manufacturer',
+      text: 'I obtained our family cashless mediclaim health coverage through Manish Panchal. When we faced an emergency hospitalization, his dedicated claims assistance desk resolved all cashless hospital approvals within just two hours! Outstanding service.',
       rating: 5
     },
     {
       name: 'Manish Makwana',
-      role: 'Senior Software Engineer, Powai',
-      text: 'I started a monthly mutual fund SIP via Loansurecare 8 years ago. His customized advice on portfolio rebalancing has yielded over 16.5% CAGR compounding, helping me easily secure my new apartment downpayment!',
+      role: 'Chartered Accountant',
+      text: 'As a Chartered Accountant, I pay close attention to portfolio compounding. Manish designed our long-term investment portfolios and endowment savings plans with thorough tax planning. His structured wealth approach is highly recommended.',
       rating: 5
     },
     {
       name: 'Shrikant Rakhe',
-      role: 'Consulting Cardiologist, Thane',
-      text: 'Creating inflation-adjusted retirement plans was my core focus. Manish customized a highly structured SWP portfolio combined with term protections. His transparency, compliant licensing, and guidance are outstanding.',
+      role: 'Sr. Manager - Accounts',
+      text: 'Manish Panchal handles our entire family portfolio management. From comprehensive health protections (mediclaim) to international travel insurance, his attention to detail, compliant advisory, and prompt service keep our assets secure.',
       rating: 5
     },
     {
       name: 'Gaurav Panchal',
-      role: 'Manufacturing Director, Bhandup',
-      text: 'We insured our industrial plant machinery and stocks through Manish. His risk estimation models are highly detailed and saved us premium costs. He is secure, transparent, and prompt.',
+      role: 'IT Engineer',
+      text: 'Manish provided my family with an excellent mediclaim plan. When we needed to settle a claim recently, he managed the documentation, coordinated with the insurer, and got the claim settled seamlessly. Highly professional and responsive.',
       rating: 5
     },
     {
-      name: 'Sanjay Rathod',
-      role: 'Retired School Principal, Vashi',
-      text: 'Manish Panchal handles all our family LIC endowment payouts, RD allocations, and mediclaims. He treats us like family, handles annual renewals, and is available 24x7. Highest trust and respect!',
+      name: 'Chandrakant Vishwakarma',
+      role: 'Interior Designer',
+      text: 'I partnered with Loansurecare to transfer my home loan. Manish helped me secure the lowest interest rates available, raising my banking awareness regarding processing fees and documentation. The entire transition was smooth and hassle-free.',
       rating: 5
     }
   ];
