@@ -3,14 +3,14 @@ import { ShieldCheck, Layers, Award, Landmark, CircleDollarSign, GraduationCap, 
 
 const About = () => {
   const capabilities = [
-    { label: 'Term Plans', icon: ShieldCheck, desc: 'Pure life risk coverage providing high sum assured protection for your dependents at lowest rates.' },
-    { label: 'FD & RD', icon: Layers, desc: 'Fixed and Recurring deposits offering secured guaranteed capital returns with verified bank safety.' },
-    { label: 'LIC Policies', icon: Award, desc: 'Participating and non-participating LIC plans for endowment, money back, and pension needs.' },
     { label: 'All Bank Loans', icon: Landmark, desc: 'Comprehensive direct tie-up loan options for Home, Business, Personal, and Mortgage needs.' },
-    { label: 'Gold Loans', icon: CircleDollarSign, desc: 'Instant gold liquidity solutions with lowest interest charges and flexible repayment rates.' },
-    { label: 'Education Loans', icon: GraduationCap, desc: 'Academic financial support for premium domestic and international university courses.' },
+    { label: 'Term Plans', icon: ShieldCheck, desc: 'Pure life risk coverage providing high sum assured protection for your dependents at lowest rates.' },
+    { label: 'LIC Policies', icon: Award, desc: 'Participating and non-participating LIC plans for endowment, money back, and pension needs.' },
+    { label: 'FD & RD', icon: Layers, desc: 'Fixed and Recurring deposits offering secured guaranteed capital returns with verified bank safety.' },
     { label: 'Cashless Mediclaim', icon: Cross, desc: 'Instant hospital admission mediclaims with thousands of premium cashless network systems.' },
-    { label: 'Real Estate Investment', icon: Map, desc: 'Strategic capital investments in premium corporate real estate and agricultural land projects.' },
+    { label: 'Education Loans', icon: GraduationCap, desc: 'Academic financial support for premium domestic and international university courses.' },
+    { label: 'Gold Loans', icon: CircleDollarSign, desc: 'Instant gold liquidity solutions with lowest interest charges and flexible repayment rates.' },
+    { label: 'Real Estate Investment', icon: Map, desc: 'Plots / Villa & Bunglows, Bank Auction Properties' },
   ];
 
   return (
