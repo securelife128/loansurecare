@@ -13,7 +13,8 @@ import Modal from './components/UI/Modal';
 import { Send, CheckCircle2 } from 'lucide-react';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const darkMode = false;
+  const toggleDarkMode = () => {};
   const [activeSection, setActiveSection] = useState('home');
   const [selectedCalc, setSelectedCalc] = useState(0);
   const [prefilledService, setPrefilledService] = useState('General Inquiry');
@@ -27,33 +28,12 @@ function App() {
   const [modalSubmitted, setModalSubmitted] = useState(false);
   const [modalLoading, setModalLoading] = useState(false);
 
-  // Initialize Dark Mode based on system preferences or defaults
+  // Force Light Mode strictly
   useEffect(() => {
-    const isDark = localStorage.getItem('theme') === 'dark' || 
-      (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
-    setDarkMode(isDark);
-    if (isDark) {
-      document.documentElement.classList.add('dark');
-      document.body.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-      document.body.classList.remove('dark');
-    }
+    document.documentElement.classList.remove('dark');
+    document.body.classList.remove('dark');
+    localStorage.setItem('theme', 'light');
   }, []);
-
-  const toggleDarkMode = () => {
-    const newMode = !darkMode;
-    setDarkMode(newMode);
-    if (newMode) {
-      document.documentElement.classList.add('dark');
-      document.body.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-      document.body.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
-    }
-  };
 
   // Scroll section tracker to highlight active navbar links
   useEffect(() => {

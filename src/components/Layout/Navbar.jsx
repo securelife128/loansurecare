@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { 
-  Sun, 
-  Moon, 
   Menu, 
   X, 
   ChevronDown, 
@@ -203,20 +201,8 @@ const Navbar = ({ darkMode, toggleDarkMode, activeSection, onCalculatorSelect, o
             })}
           </div>
 
-          {/* Action Buttons & Dark Mode */}
+          {/* Action Buttons */}
           <div className="hidden lg:flex items-center gap-x-1.5 xl:gap-x-2.5 shrink-0">
-            {/* Dark Mode Toggle */}
-            <button
-              onClick={toggleDarkMode}
-              aria-label="Toggle Dark Mode"
-              className="p-1.5 rounded-full bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-200 hover:bg-slate-200 dark:hover:bg-slate-800 transition-all duration-300 flex items-center justify-center transform hover:scale-105 active:scale-95 shrink-0"
-            >
-              {darkMode ? (
-                <Sun className="h-4.5 w-4.5 text-brand-gold animate-spin-slow rotate-12" />
-              ) : (
-                <Moon className="h-4.5 w-4.5 text-brand-blue" />
-              )}
-            </button>
 
             {/* Direct Pay Link */}
             <a
@@ -239,13 +225,6 @@ const Navbar = ({ darkMode, toggleDarkMode, activeSection, onCalculatorSelect, o
 
           {/* Mobile Menu Button / Controls */}
           <div className="flex lg:hidden items-center space-x-2">
-            {/* Dark Mode Toggle Mobile */}
-            <button
-              onClick={toggleDarkMode}
-              className="p-2 rounded-full bg-slate-100 dark:bg-slate-900 text-slate-700 dark:text-slate-200 transition-all duration-300"
-            >
-              {darkMode ? <Sun className="h-5 w-5 text-brand-gold" /> : <Moon className="h-5 w-5 text-brand-blue" />}
-            </button>
 
             {/* Hamburger Button */}
             <button
